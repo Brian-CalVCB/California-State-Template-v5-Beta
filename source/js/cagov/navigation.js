@@ -265,7 +265,7 @@ $(document).ready(function () {
             hoverClass: "hover", // default css class for the hover state
             focusClass: "focus", // default css class for the focus state
             openClass: "open", // default css class for the open state
-            openDelay: 400, // default open delay when opening menu via mouseover
+            openDelay: 100, // default open delay when opening menu via mouseover
             closeDelay: 500 // default close delay when on mouseout
         },
         Keyboard = {
