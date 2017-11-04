@@ -11,22 +11,31 @@
     
     header,
     .header {
-        .clearfix();
+        
+        @supports (flex-wrap: wrap) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: space-between;
+            
+            .filing-date {
+                flex: 0 0 auto;
+            }
+            
+            .job-item-title {
+                flex: 0 0 auto;
+            }
+        }
+        
         margin-bottom:0;
         
         .job-item-title {
-            float:left;
-            margin-right: (@grid-gutter-width / 2);
             .font-size(1.5);
             .font-condensed();
-        }
-        
-        .filing-date {
-            float:right;
+            margin: 0 2rem (@line-height-computed / 2) 0;
         }
         
         .start-date {
-            float:left;
             margin-top:8px;
         }
     }

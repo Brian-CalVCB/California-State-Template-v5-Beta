@@ -9612,44 +9612,44 @@ hr.hr-light {
 .profile-item .header {
   margin-bottom: 0;
 }
-.profile-item header:before,
-.profile-item .header:before,
-.profile-item header:after,
-.profile-item .header:after {
-  content: " ";
-  display: table;
-}
-.profile-item header:after,
-.profile-item .header:after {
-  clear: both;
-}
-.profile-item header:before,
-.profile-item .header:before,
-.profile-item header:after,
-.profile-item .header:after {
-  content: " ";
-  display: table;
-}
-.profile-item header:after,
-.profile-item .header:after {
-  clear: both;
+@supports ((-ms-flex-wrap: wrap) or (flex-wrap: wrap)) {
+  .profile-item header,
+  .profile-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .profile-item header .filing-date,
+  .profile-item .header .filing-date {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .profile-item header .job-item-title,
+  .profile-item .header .job-item-title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
 }
 .profile-item header .job-item-title,
 .profile-item .header .job-item-title {
-  float: left;
-  margin-right: 15px;
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
-}
-.profile-item header .filing-date,
-.profile-item .header .filing-date {
-  float: right;
+  margin: 0 2rem 11px 0;
 }
 .profile-item header .start-date,
 .profile-item .header .start-date {
-  float: left;
   margin-top: 8px;
 }
 .profile-item footer,
@@ -10130,44 +10130,44 @@ figcaption {
 .well .header {
   margin-bottom: 0;
 }
-.well header:before,
-.well .header:before,
-.well header:after,
-.well .header:after {
-  content: " ";
-  display: table;
-}
-.well header:after,
-.well .header:after {
-  clear: both;
-}
-.well header:before,
-.well .header:before,
-.well header:after,
-.well .header:after {
-  content: " ";
-  display: table;
-}
-.well header:after,
-.well .header:after {
-  clear: both;
+@supports ((-ms-flex-wrap: wrap) or (flex-wrap: wrap)) {
+  .well header,
+  .well .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .well header .filing-date,
+  .well .header .filing-date {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .well header .job-item-title,
+  .well .header .job-item-title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
 }
 .well header .job-item-title,
 .well .header .job-item-title {
-  float: left;
-  margin-right: 15px;
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
-}
-.well header .filing-date,
-.well .header .filing-date {
-  float: right;
+  margin: 0 2rem 11px 0;
 }
 .well header .start-date,
 .well .header .start-date {
-  float: left;
   margin-top: 8px;
 }
 .well footer,
@@ -10263,44 +10263,44 @@ figcaption {
 .exam-item .header {
   margin-bottom: 0;
 }
-.exam-item header:before,
-.exam-item .header:before,
-.exam-item header:after,
-.exam-item .header:after {
-  content: " ";
-  display: table;
-}
-.exam-item header:after,
-.exam-item .header:after {
-  clear: both;
-}
-.exam-item header:before,
-.exam-item .header:before,
-.exam-item header:after,
-.exam-item .header:after {
-  content: " ";
-  display: table;
-}
-.exam-item header:after,
-.exam-item .header:after {
-  clear: both;
+@supports ((-ms-flex-wrap: wrap) or (flex-wrap: wrap)) {
+  .exam-item header,
+  .exam-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .exam-item header .filing-date,
+  .exam-item .header .filing-date {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .exam-item header .job-item-title,
+  .exam-item .header .job-item-title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
 }
 .exam-item header .job-item-title,
 .exam-item .header .job-item-title {
-  float: left;
-  margin-right: 15px;
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
-}
-.exam-item header .filing-date,
-.exam-item .header .filing-date {
-  float: right;
+  margin: 0 2rem 11px 0;
 }
 .exam-item header .start-date,
 .exam-item .header .start-date {
-  float: left;
   margin-top: 8px;
 }
 .exam-item footer,
@@ -10401,44 +10401,44 @@ figcaption {
 .course-item .header {
   margin-bottom: 0;
 }
-.course-item header:before,
-.course-item .header:before,
-.course-item header:after,
-.course-item .header:after {
-  content: " ";
-  display: table;
-}
-.course-item header:after,
-.course-item .header:after {
-  clear: both;
-}
-.course-item header:before,
-.course-item .header:before,
-.course-item header:after,
-.course-item .header:after {
-  content: " ";
-  display: table;
-}
-.course-item header:after,
-.course-item .header:after {
-  clear: both;
+@supports ((-ms-flex-wrap: wrap) or (flex-wrap: wrap)) {
+  .course-item header,
+  .course-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .course-item header .filing-date,
+  .course-item .header .filing-date {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .course-item header .job-item-title,
+  .course-item .header .job-item-title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
 }
 .course-item header .job-item-title,
 .course-item .header .job-item-title {
-  float: left;
-  margin-right: 15px;
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
-}
-.course-item header .filing-date,
-.course-item .header .filing-date {
-  float: right;
+  margin: 0 2rem 11px 0;
 }
 .course-item header .start-date,
 .course-item .header .start-date {
-  float: left;
   margin-top: 8px;
 }
 .course-item footer,
@@ -11594,44 +11594,44 @@ fieldset[disabled] .location.contact .btn.active {
 .job-item .header {
   margin-bottom: 0;
 }
-.job-item header:before,
-.job-item .header:before,
-.job-item header:after,
-.job-item .header:after {
-  content: " ";
-  display: table;
-}
-.job-item header:after,
-.job-item .header:after {
-  clear: both;
-}
-.job-item header:before,
-.job-item .header:before,
-.job-item header:after,
-.job-item .header:after {
-  content: " ";
-  display: table;
-}
-.job-item header:after,
-.job-item .header:after {
-  clear: both;
+@supports ((-ms-flex-wrap: wrap) or (flex-wrap: wrap)) {
+  .job-item header,
+  .job-item .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .job-item header .filing-date,
+  .job-item .header .filing-date {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .job-item header .job-item-title,
+  .job-item .header .job-item-title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
 }
 .job-item header .job-item-title,
 .job-item .header .job-item-title {
-  float: left;
-  margin-right: 15px;
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
-}
-.job-item header .filing-date,
-.job-item .header .filing-date {
-  float: right;
+  margin: 0 2rem 11px 0;
 }
 .job-item header .start-date,
 .job-item .header .start-date {
-  float: left;
   margin-top: 8px;
 }
 .job-item footer,
