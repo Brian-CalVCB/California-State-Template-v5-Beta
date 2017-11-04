@@ -9627,17 +9627,11 @@ hr.hr-light {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .profile-item header .filing-date,
-  .profile-item .header .filing-date {
+  .profile-item header > *,
+  .profile-item .header > * {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-  }
-  .profile-item header .job-item-title,
-  .profile-item .header .job-item-title {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
   }
 }
 .profile-item header .job-item-title,
@@ -10145,17 +10139,11 @@ figcaption {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .well header .filing-date,
-  .well .header .filing-date {
+  .well header > *,
+  .well .header > * {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-  }
-  .well header .job-item-title,
-  .well .header .job-item-title {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
   }
 }
 .well header .job-item-title,
@@ -10278,17 +10266,11 @@ figcaption {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .exam-item header .filing-date,
-  .exam-item .header .filing-date {
+  .exam-item header > *,
+  .exam-item .header > * {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-  }
-  .exam-item header .job-item-title,
-  .exam-item .header .job-item-title {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
   }
 }
 .exam-item header .job-item-title,
@@ -10416,17 +10398,11 @@ figcaption {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .course-item header .filing-date,
-  .course-item .header .filing-date {
+  .course-item header > *,
+  .course-item .header > * {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-  }
-  .course-item header .job-item-title,
-  .course-item .header .job-item-title {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
   }
 }
 .course-item header .job-item-title,
@@ -11609,17 +11585,11 @@ fieldset[disabled] .location.contact .btn.active {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .job-item header .filing-date,
-  .job-item .header .filing-date {
+  .job-item header > *,
+  .job-item .header > * {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-  }
-  .job-item header .job-item-title,
-  .job-item .header .job-item-title {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
   }
 }
 .job-item header .job-item-title,
