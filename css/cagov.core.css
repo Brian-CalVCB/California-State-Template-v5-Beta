@@ -5531,6 +5531,7 @@ h6,
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
+  transition: all 0.3s;
 }
 @media (min-width: 768px) {
   .branding {
@@ -5558,6 +5559,7 @@ h6,
 }
 .branding .header-organization-banner img {
   max-height: 60px;
+  transition: all 0.3s;
   width: 100%;
 }
 @media (max-width: 992px) and (min-width: 768px) {
@@ -9606,26 +9608,34 @@ hr.hr-light {
 .profile-item:after {
   clear: both;
 }
+.profile-item header,
 .profile-item .header {
   margin-bottom: 0;
 }
+.profile-item header:before,
 .profile-item .header:before,
+.profile-item header:after,
 .profile-item .header:after {
   content: " ";
   display: table;
 }
+.profile-item header:after,
 .profile-item .header:after {
   clear: both;
 }
+.profile-item header:before,
 .profile-item .header:before,
+.profile-item header:after,
 .profile-item .header:after {
   content: " ";
   display: table;
 }
+.profile-item header:after,
 .profile-item .header:after {
   clear: both;
 }
-.profile-item .header .title {
+.profile-item header .job-item-title,
+.profile-item .header .job-item-title {
   float: left;
   margin-right: 15px;
   font-size: 24px;
@@ -9633,33 +9643,43 @@ hr.hr-light {
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
 }
+.profile-item header .filing-date,
 .profile-item .header .filing-date {
   float: right;
 }
+.profile-item header .start-date,
 .profile-item .header .start-date {
   float: left;
   margin-top: 8px;
 }
+.profile-item footer,
 .profile-item .footer {
   position: relative;
   clear: both;
 }
+.profile-item footer:before,
 .profile-item .footer:before,
+.profile-item footer:after,
 .profile-item .footer:after {
   content: " ";
   display: table;
 }
+.profile-item footer:after,
 .profile-item .footer:after {
   clear: both;
 }
+.profile-item footer:before,
 .profile-item .footer:before,
+.profile-item footer:after,
 .profile-item .footer:after {
   content: " ";
   display: table;
 }
+.profile-item footer:after,
 .profile-item .footer:after {
   clear: both;
 }
+.profile-item footer a.btn,
 .profile-item .footer a.btn {
   float: right;
   margin-top: 11px;
@@ -9669,10 +9689,12 @@ hr.hr-light {
   border-radius: 3px;
 }
 @media (max-width: 992px) {
+  .profile-item footer a.btn,
   .profile-item .footer a.btn {
     float: left;
   }
 }
+.profile-item footer .published,
 .profile-item .footer .published {
   float: left;
   margin-top: 10px;
@@ -10104,26 +10126,34 @@ figcaption {
 .well:after {
   clear: both;
 }
+.well header,
 .well .header {
   margin-bottom: 0;
 }
+.well header:before,
 .well .header:before,
+.well header:after,
 .well .header:after {
   content: " ";
   display: table;
 }
+.well header:after,
 .well .header:after {
   clear: both;
 }
+.well header:before,
 .well .header:before,
+.well header:after,
 .well .header:after {
   content: " ";
   display: table;
 }
+.well header:after,
 .well .header:after {
   clear: both;
 }
-.well .header .title {
+.well header .job-item-title,
+.well .header .job-item-title {
   float: left;
   margin-right: 15px;
   font-size: 24px;
@@ -10131,33 +10161,43 @@ figcaption {
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
 }
+.well header .filing-date,
 .well .header .filing-date {
   float: right;
 }
+.well header .start-date,
 .well .header .start-date {
   float: left;
   margin-top: 8px;
 }
+.well footer,
 .well .footer {
   position: relative;
   clear: both;
 }
+.well footer:before,
 .well .footer:before,
+.well footer:after,
 .well .footer:after {
   content: " ";
   display: table;
 }
+.well footer:after,
 .well .footer:after {
   clear: both;
 }
+.well footer:before,
 .well .footer:before,
+.well footer:after,
 .well .footer:after {
   content: " ";
   display: table;
 }
+.well footer:after,
 .well .footer:after {
   clear: both;
 }
+.well footer a.btn,
 .well .footer a.btn {
   float: right;
   margin-top: 11px;
@@ -10167,10 +10207,12 @@ figcaption {
   border-radius: 3px;
 }
 @media (max-width: 992px) {
+  .well footer a.btn,
   .well .footer a.btn {
     float: left;
   }
 }
+.well footer .published,
 .well .footer .published {
   float: left;
   margin-top: 10px;
@@ -10217,26 +10259,34 @@ figcaption {
 .exam-item:after {
   clear: both;
 }
+.exam-item header,
 .exam-item .header {
   margin-bottom: 0;
 }
+.exam-item header:before,
 .exam-item .header:before,
+.exam-item header:after,
 .exam-item .header:after {
   content: " ";
   display: table;
 }
+.exam-item header:after,
 .exam-item .header:after {
   clear: both;
 }
+.exam-item header:before,
 .exam-item .header:before,
+.exam-item header:after,
 .exam-item .header:after {
   content: " ";
   display: table;
 }
+.exam-item header:after,
 .exam-item .header:after {
   clear: both;
 }
-.exam-item .header .title {
+.exam-item header .job-item-title,
+.exam-item .header .job-item-title {
   float: left;
   margin-right: 15px;
   font-size: 24px;
@@ -10244,33 +10294,43 @@ figcaption {
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
 }
+.exam-item header .filing-date,
 .exam-item .header .filing-date {
   float: right;
 }
+.exam-item header .start-date,
 .exam-item .header .start-date {
   float: left;
   margin-top: 8px;
 }
+.exam-item footer,
 .exam-item .footer {
   position: relative;
   clear: both;
 }
+.exam-item footer:before,
 .exam-item .footer:before,
+.exam-item footer:after,
 .exam-item .footer:after {
   content: " ";
   display: table;
 }
+.exam-item footer:after,
 .exam-item .footer:after {
   clear: both;
 }
+.exam-item footer:before,
 .exam-item .footer:before,
+.exam-item footer:after,
 .exam-item .footer:after {
   content: " ";
   display: table;
 }
+.exam-item footer:after,
 .exam-item .footer:after {
   clear: both;
 }
+.exam-item footer a.btn,
 .exam-item .footer a.btn {
   float: right;
   margin-top: 11px;
@@ -10280,10 +10340,12 @@ figcaption {
   border-radius: 3px;
 }
 @media (max-width: 992px) {
+  .exam-item footer a.btn,
   .exam-item .footer a.btn {
     float: left;
   }
 }
+.exam-item footer .published,
 .exam-item .footer .published {
   float: left;
   margin-top: 10px;
@@ -10335,26 +10397,34 @@ figcaption {
 .course-item:after {
   clear: both;
 }
+.course-item header,
 .course-item .header {
   margin-bottom: 0;
 }
+.course-item header:before,
 .course-item .header:before,
+.course-item header:after,
 .course-item .header:after {
   content: " ";
   display: table;
 }
+.course-item header:after,
 .course-item .header:after {
   clear: both;
 }
+.course-item header:before,
 .course-item .header:before,
+.course-item header:after,
 .course-item .header:after {
   content: " ";
   display: table;
 }
+.course-item header:after,
 .course-item .header:after {
   clear: both;
 }
-.course-item .header .title {
+.course-item header .job-item-title,
+.course-item .header .job-item-title {
   float: left;
   margin-right: 15px;
   font-size: 24px;
@@ -10362,33 +10432,43 @@ figcaption {
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
 }
+.course-item header .filing-date,
 .course-item .header .filing-date {
   float: right;
 }
+.course-item header .start-date,
 .course-item .header .start-date {
   float: left;
   margin-top: 8px;
 }
+.course-item footer,
 .course-item .footer {
   position: relative;
   clear: both;
 }
+.course-item footer:before,
 .course-item .footer:before,
+.course-item footer:after,
 .course-item .footer:after {
   content: " ";
   display: table;
 }
+.course-item footer:after,
 .course-item .footer:after {
   clear: both;
 }
+.course-item footer:before,
 .course-item .footer:before,
+.course-item footer:after,
 .course-item .footer:after {
   content: " ";
   display: table;
 }
+.course-item footer:after,
 .course-item .footer:after {
   clear: both;
 }
+.course-item footer a.btn,
 .course-item .footer a.btn {
   float: right;
   margin-top: 11px;
@@ -10398,10 +10478,12 @@ figcaption {
   border-radius: 3px;
 }
 @media (max-width: 992px) {
+  .course-item footer a.btn,
   .course-item .footer a.btn {
     float: left;
   }
 }
+.course-item footer .published,
 .course-item .footer .published {
   float: left;
   margin-top: 10px;
@@ -11508,26 +11590,34 @@ fieldset[disabled] .location.contact .btn.active {
 .job-item:after {
   clear: both;
 }
+.job-item header,
 .job-item .header {
   margin-bottom: 0;
 }
+.job-item header:before,
 .job-item .header:before,
+.job-item header:after,
 .job-item .header:after {
   content: " ";
   display: table;
 }
+.job-item header:after,
 .job-item .header:after {
   clear: both;
 }
+.job-item header:before,
 .job-item .header:before,
+.job-item header:after,
 .job-item .header:after {
   content: " ";
   display: table;
 }
+.job-item header:after,
 .job-item .header:after {
   clear: both;
 }
-.job-item .header .title {
+.job-item header .job-item-title,
+.job-item .header .job-item-title {
   float: left;
   margin-right: 15px;
   font-size: 24px;
@@ -11535,33 +11625,43 @@ fieldset[disabled] .location.contact .btn.active {
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
   font-stretch: condensed;
 }
+.job-item header .filing-date,
 .job-item .header .filing-date {
   float: right;
 }
+.job-item header .start-date,
 .job-item .header .start-date {
   float: left;
   margin-top: 8px;
 }
+.job-item footer,
 .job-item .footer {
   position: relative;
   clear: both;
 }
+.job-item footer:before,
 .job-item .footer:before,
+.job-item footer:after,
 .job-item .footer:after {
   content: " ";
   display: table;
 }
+.job-item footer:after,
 .job-item .footer:after {
   clear: both;
 }
+.job-item footer:before,
 .job-item .footer:before,
+.job-item footer:after,
 .job-item .footer:after {
   content: " ";
   display: table;
 }
+.job-item footer:after,
 .job-item .footer:after {
   clear: both;
 }
+.job-item footer a.btn,
 .job-item .footer a.btn {
   float: right;
   margin-top: 11px;
@@ -11571,10 +11671,12 @@ fieldset[disabled] .location.contact .btn.active {
   border-radius: 3px;
 }
 @media (max-width: 992px) {
+  .job-item footer a.btn,
   .job-item .footer a.btn {
     float: left;
   }
 }
+.job-item footer .published,
 .job-item .footer .published {
   float: left;
   margin-top: 10px;
