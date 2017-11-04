@@ -9634,8 +9634,8 @@ hr.hr-light {
             flex: 0 1 auto;
   }
 }
-.profile-item header .job-item-title,
-.profile-item .header .job-item-title {
+.profile-item header .title,
+.profile-item .header .title {
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
@@ -10146,8 +10146,8 @@ figcaption {
             flex: 0 1 auto;
   }
 }
-.well header .job-item-title,
-.well .header .job-item-title {
+.well header .title,
+.well .header .title {
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
@@ -10273,8 +10273,8 @@ figcaption {
             flex: 0 1 auto;
   }
 }
-.exam-item header .job-item-title,
-.exam-item .header .job-item-title {
+.exam-item header .title,
+.exam-item .header .title {
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
@@ -10405,8 +10405,8 @@ figcaption {
             flex: 0 1 auto;
   }
 }
-.course-item header .job-item-title,
-.course-item .header .job-item-title {
+.course-item header .title,
+.course-item .header .title {
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
@@ -11592,8 +11592,8 @@ fieldset[disabled] .location.contact .btn.active {
             flex: 0 1 auto;
   }
 }
-.job-item header .job-item-title,
-.job-item .header .job-item-title {
+.job-item header .title,
+.job-item .header .title {
   font-size: 24px;
   font-size: 1.5rem;
   font-family: 'Arial Narrow', 'Helvetica Narrow', Arial, Helvetica, sans-serif;
