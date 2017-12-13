@@ -87,8 +87,7 @@ module.exports = function (grunt) {
             },
             options: {
                 // the banner is inserted at the top of the output
-                banner: '/* <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today("mmm-dd-yyyy' +
-                    '") %> */\n/* JS COMPILED FROM SOURCE DO NOT MODIFY */\n'
+                banner: '/* <%= pkg.name %> - v<%= pkg.version %> */\n/* JS COMPILED FROM SOURCE DO NOT MODIFY */\n'
             }
         },
 
@@ -98,8 +97,7 @@ module.exports = function (grunt) {
                     paths: ["css"],
                     compress: false,
                     ieCompat: true,
-                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today("mmm-dd-yyyy' +
-                        '") %> */\n/* STYLES COMPILED FROM SOURCE (LESS) DO NOT MODIFY */\n\n'
+                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> */\n/* STYLES COMPILED FROM SOURCE (LESS) DO NOT MODIFY */\n\n'
                 },
                 files: csssrc
             },
@@ -108,8 +106,7 @@ module.exports = function (grunt) {
                     paths: ["css"],
                     compress: true,
                     ieCompat: true,
-                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today("mmm-dd-yyyy' +
-                        '") %> */\n/* STYLES COMPILED FROM SOURCE (LESS) DO NOT MODIFY */\n\n'
+                    banner: '/* <%= pkg.name %> - v<%= pkg.version %> */\n/* STYLES COMPILED FROM SOURCE (LESS) DO NOT MODIFY */\n\n'
                 },
                 files: csssrc
             }
